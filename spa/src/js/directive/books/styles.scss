@@ -1,0 +1,20 @@
+.books {
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: block;
+  margin: 30px auto;
+  max-width: 800px;
+  padding: 30px 10px;
+  position: relative;
+
+  h1:first-child {
+    font-size: 1.5em;
+    margin: 0 20px 30px;
+  }
+}
+
+.row {
+  &:nth-child(odd) {
+    background: #FAF9F7;
+  }
+}

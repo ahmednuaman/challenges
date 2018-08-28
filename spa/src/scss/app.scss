@@ -1,0 +1,39 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #F5F1ED;
+  color: #000000;
+}
+
+a {
+  cursor: pointer;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+
+  .column {
+    align-items: center;
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+
+    &:nth-child(1) {
+      align-items: flex-start;
+      flex: 2 0 0;
+      flex-direction: row;
+      justify-content: left;
+      text-align: left;
+    }
+  }
+}

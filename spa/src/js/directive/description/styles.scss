@@ -1,0 +1,15 @@
+.description {
+  display: block;
+  line-height: 1.3em;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  transition: max-height .5s ease-in-out, padding-bottom .5s ease-in-out;
+}
+
+.showing {
+  height: auto;
+  padding-bottom: 20px;
+  max-height: 500px;
+  overflow: auto;
+}

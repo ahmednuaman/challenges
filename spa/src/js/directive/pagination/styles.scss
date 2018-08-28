@@ -1,0 +1,22 @@
+.pagination {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+
+  a {
+    color: #999999;
+
+    &:first-child {
+      margin-right: 15px;
+    }
+
+    &:last-child {
+      margin-left: 15px;
+    }
+  }
+}
+
+.disabled {
+  color: #EAE8E3 !important;
+  cursor: not-allowed !important;
+}

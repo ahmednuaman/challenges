@@ -8,6 +8,12 @@ You can submit all the answers to this assignment in a single repository (or as 
 
 Tell us about one of your commercial projects with Node.js and/or AngularJS.
 
+> They've ranged from building SkyStore.com (the largest Angular site at the very start of Angular), all the way to low latency dashboards using WS and GQL for traders, visualisations for BI tools, IoT dashboards, marketing microsites. 
+
+> NodeJS work tends to fall under:
+>   - On premise running under HAProxy/Express to create RESTful CRUD-style database APIs with helmet protection all the way to oauth servers, NTLM/Kerberos integration, IoT MQTT services, ETL and streaming, and VoD/DRM certification and hand shaking
+>   - Now I let Amazon do all the infrastucture and push for pretty much 90% serverless using either serverless.com or own Terraform stacks building RESTful SPA APIs for dashboards, customer apps, mobile apps, bots for Messenger and voice platforms, distrubuted pipeline systems integrating SQS, SES, etc, even my garden lights are an AWS service with an AWS IoT button, lots of Dynamo, lots of CloudFormation, and even Aurora serverless.
+
 
 ## 2. Document versioning
 
@@ -19,6 +25,8 @@ It should be able to show:
    - the changes made between two versions
 
 Strive for disk space efficiency.
+
+> I would use git, it's _snapshots, not differences_(tm)
 
 
 ## 3. Node.js REST API
